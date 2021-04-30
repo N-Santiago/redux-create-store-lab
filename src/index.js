@@ -42,5 +42,5 @@ store.dispatch({ type: '@@INIT' });
 let button = document.getElementById('button');
 
 button.addEventListener('click', () => {
-  store.dispatch({ type: 'INCREASE_COUNT' });
+  store.dispatch({ type: 'ADD_CANDY' });
 }) 
